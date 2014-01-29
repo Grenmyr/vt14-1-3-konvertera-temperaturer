@@ -41,7 +41,7 @@
                 <asp:RadioButton ID="Celsius" runat="server" GroupName="Scale" Text="Celsius" Checked="True" />
             </div>
             <div>
-                <asp:RadioButton ID="Fahrenheit" runat="server" GroupName="Scale" Text="Fahrenheit" ValidationGroup="Scale" Checked="True" Enabled="True" />
+                <asp:RadioButton ID="Fahrenheit" runat="server" GroupName="Scale" Text="Fahrenheit" ValidationGroup="Scale" Checked="False" Enabled="True" />
             </div>
             <div>
                 <asp:Button ID="SubmitButton" runat="server" Text="Button" OnClick="SubmitButton_Click"  />               

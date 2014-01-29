@@ -7,5 +7,6 @@ namespace temperaturer.Model
 {
     public static class TemperatureConverter
     {
+        // Här ska allt som har med konvertering av temperaturer skrivas
     }
 }

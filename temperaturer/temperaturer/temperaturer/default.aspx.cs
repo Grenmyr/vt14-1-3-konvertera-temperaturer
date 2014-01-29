@@ -16,7 +16,33 @@ namespace temperaturer
 
         protected void SubmitButton_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (IsValid)
+                {
+                    if (!Celsius.Checked && !Fahrenheit.Checked)
+                    {
+                        //throw new ApplicationException("Du är en stygg användare!");
+                        ModelState.AddModelError(string.Empty, "Du är en Stygg användare");
+                    }
 
+                    if (Celsius.Checked)
+                    {
+
+                    }
+                    else if (Fahrenheit.Checked)
+                    {
+
+                    }
+
+                }
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+           
         }
     }
 }
