@@ -11,7 +11,7 @@ namespace temperaturer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            MinTextBox.Focus();
         }
 
         protected void SubmitButton_Click(object sender, EventArgs e)
