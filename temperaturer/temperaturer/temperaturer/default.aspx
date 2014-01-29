@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="temperaturer._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="temperaturer._default" ViewStateMode="Disabled" %>
 
 <!DOCTYPE html>
 
@@ -8,6 +8,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <h4>Starttemperatur</h4>
+        <div><asp:TextBox ID="MinTextBox" runat="server"></asp:TextBox></div>
+        <h4>Sluttemperatur</h4>
+        <div><asp:TextBox ID="MaxTextBox" runat="server"></asp:TextBox></div>
+        <h4>Temperatursteg</h4>
     <div>
     
     </div>
