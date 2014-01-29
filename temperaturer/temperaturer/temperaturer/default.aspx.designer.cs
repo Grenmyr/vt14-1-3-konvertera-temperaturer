@@ -13,13 +13,13 @@ namespace temperaturer {
     public partial class _default {
         
         /// <summary>
-        /// form1 control.
+        /// form control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form;
         
         /// <summary>
         /// ValidationSummary control.
@@ -130,31 +130,22 @@ namespace temperaturer {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
         
         /// <summary>
-        /// Panel1 control.
+        /// CelsiusToFahrenheit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel1;
+        protected global::System.Web.UI.WebControls.RadioButton CelsiusToFahrenheit;
         
         /// <summary>
-        /// Celsius control.
+        /// FahrenheitToCelsius control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton Celsius;
-        
-        /// <summary>
-        /// Fahrenheit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton Fahrenheit;
+        protected global::System.Web.UI.WebControls.RadioButton FahrenheitToCelsius;
         
         /// <summary>
         /// SubmitButton control.
@@ -166,21 +157,39 @@ namespace temperaturer {
         protected global::System.Web.UI.WebControls.Button SubmitButton;
         
         /// <summary>
-        /// Panel2 control.
+        /// TablePanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel2;
+        protected global::System.Web.UI.WebControls.Panel TablePanel;
         
         /// <summary>
-        /// Table1 control.
+        /// Table control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table1;
+        protected global::System.Web.UI.WebControls.Table Table;
+        
+        /// <summary>
+        /// leftHeader control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableHeaderCell leftHeader;
+        
+        /// <summary>
+        /// rightHeader control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TableHeaderCell rightHeader;
     }
 }

@@ -1,2 +1,52 @@
-﻿body {
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 50%;
+    border: 1px solid;
+}
+
+.leftDiv {
+    margin-left:50px;
+    margin-top:50px;
+    position: relative;
+    border: 1px solid;
+    float: left;
+    width: 40%;
+}
+
+.tableDiv {
+    
+    position: relative;
+
+    width: 40%;
+    float: right;
+    
+}
+
+.formField {
+    margin: 10px;
+}
+
+table {
+    margin-top:50px;
+    width:200px;
+    border:1px solid #000;
+    border-collapse:collapse;
+    
+}
+td {
+    width:100px;
+    text-align:center;
+    border:1px solid #000;
+}
+
+.clear {
+    clear: both;
+}
+
+#form {
+    background-color: lightgray;
 }
