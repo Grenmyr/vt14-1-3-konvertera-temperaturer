@@ -36,7 +36,8 @@
         </div>
         <div>
             <%-- Radiobuttons för välja temperaturtyp --%>
-            <h4>Typ av konvertering</h4>
+            <asp:Panel ID="Panel1" runat="server" GroupingText="Typ av Konvertering">
+            
             <div>
                 <asp:RadioButton ID="Celsius" runat="server" GroupName="Scale" Text="Celsius" Checked="True" />
             </div>
@@ -46,6 +47,7 @@
             <div>
                 <asp:Button ID="SubmitButton" runat="server" Text="Button" OnClick="SubmitButton_Click"  />               
             </div>
+                </asp:Panel>
         </div>
     </form>
 </body>

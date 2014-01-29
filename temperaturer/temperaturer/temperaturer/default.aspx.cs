@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using temperaturer.Model;
 
 namespace temperaturer
 {
@@ -16,8 +17,7 @@ namespace temperaturer
 
         protected void SubmitButton_Click(object sender, EventArgs e)
         {
-            try
-            {
+           
                 if (IsValid)
                 {
                     if (!Celsius.Checked && !Fahrenheit.Checked)
@@ -28,19 +28,16 @@ namespace temperaturer
 
                     if (Celsius.Checked)
                     {
-
+                        TemperatureConverter.CelsiusToFahrenheit(20);
+                        temp.CelciusToFahrenheit();
+                         //int temp = 20.CelsiusToFahrenheit();
                     }
                     else if (Fahrenheit.Checked)
                     {
 
                     }
 
-                }
-            }
-            catch (Exception)
-            {
                 
-                throw;
             }
            
         }

@@ -6,6 +6,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.UI;
 
+
 namespace temperaturer
 {
     public class Global : System.Web.HttpApplication
