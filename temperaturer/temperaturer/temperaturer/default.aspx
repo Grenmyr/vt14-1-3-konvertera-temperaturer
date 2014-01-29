@@ -49,6 +49,10 @@
             </div>
                 </asp:Panel>
         </div>
+        <asp:Panel ID="Panel2" runat="server">
+
+            <asp:Table ID="Table1" runat="server"></asp:Table>
+        </asp:Panel>
     </form>
 </body>
 </html>

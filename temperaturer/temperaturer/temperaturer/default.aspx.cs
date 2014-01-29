@@ -28,8 +28,24 @@ namespace temperaturer
 
                     if (Celsius.Checked)
                     {
+                        
+
+                        for (int i = int.Parse(MinTextBox.Text); i < int.Parse(MaxTextBox.Text) ; i+=int.Parse(RangeTextBox.Text))
+                        {
+
+                            var tc1 = new TableCell();
+                            var tc2 = new TableCell();
+                            var tr = new TableRow();
+                            tc1.Text = i.ToString();
+                            tc2.Text = TemperatureConverter.CelsiusToFahrenheit(i).ToString();
+                            
+                            tr.Cells.Add(tc1);
+                            tr.Cells.Add(tc2);
+                            Table1.Rows.Add(tr);
+                        }
+                        
                         TemperatureConverter.CelsiusToFahrenheit(20);
-                        temp.CelciusToFahrenheit();
+                        
                          //int temp = 20.CelsiusToFahrenheit();
                     }
                     else if (Fahrenheit.Checked)

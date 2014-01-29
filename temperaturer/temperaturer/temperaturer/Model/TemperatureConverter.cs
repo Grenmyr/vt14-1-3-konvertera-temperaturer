@@ -15,7 +15,7 @@ namespace temperaturer.Model
         }
         public static int FahrenheitToCelsius(int degreesF)
         {
-            return (int)((degreesF - 32) * (5 / 9));
+            return (int)((degreesF - 32) * 5 / 9);
         }
     }
 }
